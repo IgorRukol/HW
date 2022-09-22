@@ -1,6 +1,11 @@
 <!doctype html>
 <html lang="ru">
+<link rel="stylesheet" href="/css/main.css">
 <head>
+    <style>
+
+
+    </style>
 
     <meta charset="UTF-8">
     <meta name="viewport"

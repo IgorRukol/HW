@@ -5,6 +5,15 @@
 @section('title')Отзывы@endsection
 
 @section('main_content')
+    @foreach($reviews as $rev)
+        <div class="alert alert-warning">
+            <h3>{{ $rev->tema }}</h3>
+            <p>{{ $rev->message }}</p>
+        </div>
+
+
+    @endforeach
+
 
     @if($errors->any())
     <div class="alert alert-danger">
@@ -15,7 +24,7 @@
         </ul>
     </div>
     @endif
-    <form method="post" action="/review/check" class="form-control" >
+    <form method="post" action="/review/check" class="form-control tableviews" >
         @csrf
         <input type="email" name="email" id="email" placeholder="Введите email" class="form-control">
         <input type="tema" name="tema" id="tema" placeholder="Введите тему" class="form-control">
@@ -25,13 +34,6 @@
     </form>
     <h1>Все отзывы</h1>
 
-    @foreach($reviews as $rev)
-        <div class="alert alert-warning">
-            <h3>{{ $rev->tema }}</h3>
-        </div>
-
-
-    @endforeach
 
 
 @endsection
