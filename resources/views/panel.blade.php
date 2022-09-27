@@ -11,7 +11,7 @@
 
                 <ul class="nav nav-pills md-start">
 
-                    <li class="nav-item"><a href="/" class="nav-link active" aria-current="page">Главная</a></li>
+                    <li class="nav-item"><a href="/" class="nav-link">Главная</a></li>
                     <li class="nav-item"><a href="/review" class="nav-link">Отзывы</a></li>
                     <li class="nav-item"><a href="/price" class="nav-link">Цены</a></li>
                     <li class="nav-item"><a href="/contacts" class="nav-link">Контакты</a></li>
@@ -30,7 +30,7 @@
     </div>
 
     <footer class="mt-auto text-white-50">
-        <p>2022, ИП "Руколь А.А", УНП 12312312312 <a href="https://HludWood.by/" class="text-white">HludWood</a>, by <a href="https://google.com" class="text-white">IharRukol@gmail.com</a>.</p>
+        <p>2022, ИП "Руколь А.А", УНП 12312312312 <a href="https://HludWood.by/" class="text-white">HludWood</a>, by <a href="https://google.com" class="text-https://google.com/white">IharRukol@gmail.com</a>.</p>
     </footer>
 </div>
 

@@ -13,6 +13,9 @@ class MainController extends Controller
     public function about(){
         return view('about');
     }
+    public function price(){
+        return view('price');
+    }
     public function contact(){
         return view('contact');
     }
@@ -34,7 +37,9 @@ class MainController extends Controller
         $review->email = $request->input('email');
         $review->tema = $request->input('tema');
         $review->message = $request->input('message');
+        $review->rating = $request->input('rating');
         $review->save();
-            return redirect()->route('review');
+
+            return redirect('review');
     }
 }

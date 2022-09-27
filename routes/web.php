@@ -18,6 +18,8 @@ Route::get('/',[MainController::class,'home']);
 Route::get('/about', [MainController::class,'about']);
 Route::get('/contacts', [MainController::class,'contact']);
 Route::get('/review', [MainController::class,'review']);
+Route::get('/price', [MainController::class,'price']);
 Route::post('/review/check', [MainController::class,'review_check']);
+
 
 
